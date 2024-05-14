@@ -1,0 +1,38 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 0;
+    padding: 0;}
+
+body{background-color: beige;}
+
+.cabecera{background-color:rgb(159, 0, 195) ;
+    padding: 15px 15px;
+    color: beige;
+    text-shadow: 1px 1px 2px rgb(215, 1, 243) ;
+    text-transform: uppercase;
+    font-family: "DM Serif Display", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size:2em;}
+
+.cuerpo{color: rgb(75, 74, 75);
+    font-family: "Sora", sans;
+    font-style: normal;}
+
+.impo h2{color: rgb(159, 0, 195);}
+
+.impo{padding: 20px 20px;}
+
+.pie{background-color: rgb(159, 0, 195);
+                        padding: 20px 20px;
+                        color: beige;}
+
+
+ a.items {font-size: 3em;
+          color:rgb(75, 74, 75);}
+                    
+.bi-facebook:hover{ color: blue;}
+                    
+.bi-instagram:hover{color: rgb(255, 0, 200);}
+                    
+.bi-whatsapp:hover{color: green;}

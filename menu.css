@@ -1,0 +1,19 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 0;
+    padding: 0;}
+    
+.navbar-brand{width: 130px;}
+
+.navbar {background-color: rgb(37, 88, 255);}
+
+.navbar-expand-xl .navbar-nav .nav-link {color: white;
+                                        font-family: "Roboto Mono", monospace;
+                                         font-optical-sizing: auto;
+                                         font-weight: 500;
+                                         font-style: normal;
+                                         font-size: medium;
+  }
+
+  .cabecera{background: blue}
+  

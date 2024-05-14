@@ -1,0 +1,29 @@
+/*DOCUMENTO CSS*/
+
+.contenedor{ width:100%;
+    margin: 20px  auto;
+    display: flex;}
+
+.items{ width:auto;
+        padding: 10px 10px ;}
+
+.items span{ font-size: 1em;
+          font-family: "Roboto", sans-serif;
+          font-weight: 300;
+          font-style: normal;
+          color: rgb(82, 82, 82);}
+
+.items p{font-size: 1em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(37, 36, 36);}
+
+.bi{ width:15%;
+color: rgb(223, 169, 102);}
+
+p   { font-size: 1.5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(223, 169, 102);}

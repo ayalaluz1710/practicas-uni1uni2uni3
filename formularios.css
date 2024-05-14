@@ -1,0 +1,75 @@
+/*DOCUMENTO CSS*/
+
+* { margin: 0;
+padding: 0;}
+
+body{background: yellow;
+
+font-family: "Nunito Sans", sans-serif;}
+
+h1{ text-align: center;
+background-color: greenyellow;
+padding: 20px 0px;
+color: whitesmoke;
+text-transform: uppercase;
+font-weight: 900;
+text-shadow: 0px 0px 5px rgb(5, 36, 215);
+border-bottom:3px solid rgb(5, 36, 215) ;}
+
+.cuerpo{width: 70%;
+margin: 80px auto;
+display: flex;}
+
+.item{width: 50%;
+padding: 15px;
+box-sizing: border-box;}
+
+.item input, textarea { width: 100%;
+padding:  8px 0px;
+margin-bottom: 8px;
+border-radius: 3px;
+border: 2px solid rgba(64, 47, 255);}
+
+#btn{width: 50px;}
+
+h2{font-size:2em;
+padding-bottom: 15px;}
+
+.cuerpo p{line-height: 1.5;
+font-size: 1.2em;}
+
+.item input::placeholder ,textarea::placeholder {font-style: italic;
+font-weight: 500;
+color: rgb(64, 47, 255);
+padding-left: 8px;}
+
+
+.pie{padding: 20px 0px; 
+text-align: center;
+background-color: greenyellow;
+color: whitesmoke;}
+
+.pie a:hover{color:rgb(60, 43, 244)}
+
+.pie a:active{color:rgb(39, 232, 49)}
+
+.cuerpo::before{content:" ";
+                background-image: url(../img/send-fill.svg);
+                background-repeat: no-repeat;
+                background-size: 60%;
+                display: block;
+                width: 80px;
+                height: 80px;
+                position: relative;
+                top: 250px;}
+
+.cuerpo::after{ content:" ";
+                background-image: url(../img/send-fill.svg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                display: block;
+                width: 80px;
+                height: 80px;}
+
+
+

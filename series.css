@@ -1,0 +1,37 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 0;
+    padding: 0;}
+
+    body{background: rgb(138, 9, 9);}
+    
+    .cabecera {background: black;
+               color: white;
+               text-align: center;
+               padding: 20px 20px;
+               font-size: 1.7em;
+               font-family: "Amarante", serif;}
+
+    h2{ font-family: "Amarante", serif;
+        padding: 20px 20px;
+        color: white;}
+    
+
+    .contenedor {width: 100%;
+                margin: 20px 20px;
+                line-height: 1.7;
+                font-size: 1.6em;
+                font-family: "Sulphur Point", sans-serif;
+                text-align: center;
+                color: white;}
+
+    .pie{background: black;
+        color: white;
+        text-align: center;
+        padding: 10px 10px;
+        font-size: 1em;
+        font-family: "Sulphur Point", sans-serif; }
+
+    .items{flex: auto;}
+
+    

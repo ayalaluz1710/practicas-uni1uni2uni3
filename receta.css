@@ -1,0 +1,54 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 0;
+  padding: 0;}
+
+body{background: beige;}
+
+h2{font-family: "Dancing Script", cursive;
+        color: rgb(154, 11, 11);
+        font-size: 1.7em;
+        padding: 10px 10px;}
+
+
+.cabecera{background: rgb(154, 11, 11);
+          margin:auto;
+          text-align: center;
+          line-height: 2;
+          color: white;
+          font-family: "Dancing Script", cursive;
+          font-size: 2em;}
+
+.contenedor{width: 80%;
+            margin: auto;
+            display: flex;
+            padding: 40px 40px;
+            font-family: "Radio Canada", sans-serif;
+            color: grey; 
+            font-size: 1.2em;}
+
+.items {width: 50%;
+        font-family: "Radio Canada", sans-serif;
+        color: grey;
+        font-size: 1.5em;}
+
+ .items img { width: 80%;
+              height: auto;}
+
+.preparacion{font-family: "Radio Canada", sans-serif;
+            color: grey;
+            font-size: 1.5em;
+            padding:40px 40px ;
+            line-height: 1.5;}
+      
+.pie{ background-color: rgb(154, 11, 11);
+      line-height: 2;
+      text-align: center;
+      color: white;
+      font-family: "Radio Canada", sans-serif;
+      font-size: 1.5em;}
+
+.pie a {color: beige;}
+
+
+
